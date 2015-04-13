@@ -1,0 +1,55 @@
+#name {
+    position:absolute;
+	height:5%;
+	width:80%;
+	left:10%;
+	top:0%;
+	background-color:white;
+	color:purple;
+	}
+#wish {
+    position:absolute;
+	height:5%;
+	width:80%;
+	left:10%;
+	top:3%;
+	background-color:white;
+	color:purple;
+	}
+#sky {
+    background-color:skyblue;
+	height:80%;
+	width:80%;
+	left:10%;
+	top:10%;
+	position:absolute;
+	overflow:hidden;
+	}
+#base {
+    position: absolute;
+    height: 25px;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+	background-color:maroon;
+	}
+.block {
+   position: absolute;
+   width: 50px;
+   right: 0px;
+   bottom: 0px;
+   background-color:maroon;
+   display:inline-block;
+   transition:all 100s linear ;
+   z-index:1;
+	}
+.ball {
+   position: absolute;
+   left: 0px;
+   height: 25px;
+   width: 25px;
+   bottom: 25px;
+   border-radius: 25px;
+   background-color: #000;
+   transition:all 0.8s linear;
+   }
